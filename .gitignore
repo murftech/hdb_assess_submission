@@ -1,21 +1,21 @@
 # Ignore everything by default
 *
 # Allow traversal into these directories
-# !/datalake/
+!/datalake/
 !/output/
 !/scripts/
-# !/venv/
+!/venv/
 !/architectural design/
 
 # Allow everything inside them
-# !/datalake/**
+!/datalake/**
 !/output/**
 !/scripts/**
 !/architectural design/**
 /scripts/**/__pycache__/
 /scripts/.DS_Store
 
-# !/venv/**
+!/venv/**
 
 # Allow these specific top-level files
 !/requirements.txt
